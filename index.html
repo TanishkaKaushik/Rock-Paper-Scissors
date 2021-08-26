@@ -1,0 +1,67 @@
+<!-- Single tag that specifies that our document is an html file-->
+<!DOCTYPE html>
+<!-- Container tag (starting tag) -->
+<html lang="en">
+<head>
+    <!-- defines info about our file -->
+    <meta charset="UTF-8">
+    <!-- Title tag- one of the tag that is used to contain the data -->
+    <title>Rock Paper and Scissors Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Bold tag-- <b>...</b> makes the text
+        Italic tags-- <i>....<i/> -->
+        <h1>Rock-Paper-Scissors</h1>
+        <hr/>
+        <!-- </br>-- gives the space between the two lines -->
+        <!-- <p>This is a <b><i>rock-paper-scissors</i></b> game</p>
+        <a href = "https://www.google.com/" target="_blank"><h1>For Google homepage....Click here</h1></a> -->
+        <!-- paragraph tags--- <p>.....</p>
+        used when u want an entirely different
+        block for the different texts -->
+    </header>
+    
+    <!-- score board div -->
+    <div class = "scoreboard">
+        <div id="user-label" class="badge">user</div>
+        <div id="comp-label" class="badge">comp</div>
+        <span id="user-score">0</span> : <span id="comp-score">0</span>
+    </div>
+
+    <!-- <div class = "images">
+        <img width="100" src="user.jpg">
+        <!-- <div class="image" id="u">
+            <img width="100" src="user.jpg">
+        </div>
+        <div class="image" id="c">
+            <img width="100" src="comp.jpg"> -->
+        <!-- </div>
+         -->
+    </div> -->
+
+    <div class="result">
+        <p><b>Paper covers Rock. You win!!!</b></p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img width="149" src="rock-paper-scissors-circle.png">
+        </div>
+        <div class="choice" id="p">
+            <img width="145" src="rock-paper-scissors-paper.png">
+        </div>
+        <div class="choice" id="s">
+            <img width="152" src="scissors.jpg">
+        </div>
+    </div>
+
+    <p id="message"><b>Make your move.</b></p>
+
+    <!-- for linking our javascript side -->
+    <script src="app.js" charset="UTF-8" ></script>
+    
+</body>
+<!-- Container tag (ending tag) -->
+</html>
